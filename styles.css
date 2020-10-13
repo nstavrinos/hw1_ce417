@@ -1,0 +1,44 @@
+* {
+  	box-sizing: border-box;
+  	font-family: "Montserrat", sans-serif;
+}
+
+body {
+  	background-color: #cccccc;
+  	margin: 0px;
+}
+
+.resume{
+	width: 800px;
+    display: flex;
+    margin: 0px auto ;
+
+}
+
+.resume .per_info {
+    width: : 200px;
+    background:#333333;
+    padding: 25px 25px 25px;
+   	border: 3px solid black;
+}
+
+.resume .per_info .info {
+	color:white;
+}
+
+.resume .main {
+	width: 600px;
+	background-color: grey;
+	padding: 25px 25px 25px;
+	border: 3px solid black;
+}
+
+.resume .main .education p {
+	color:white;
+}
+
+.resume .main ul li {
+	background-color: #333333;
+	color:white;
+	border: 1px solid black;
+}
